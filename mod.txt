@@ -1,0 +1,13 @@
+{
+	"blt_version" : 2,
+	"name" : "Save Mover",
+	"description" : "Easily move saves from Epic to Steam",
+	"author" : "NAHFE",
+	"version" : "1",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/savefilemanager"
+			"script_path" : "save.lua"
+		}
+	]
+}
