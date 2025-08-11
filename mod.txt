@@ -1,10 +1,17 @@
 {
 	"blt_version" : 2,
 	"name" : "Steam Save Different User Fixer",
-	"description" : "Bypasses the \"Save data belongs to a different user fix\" error be able to easily move Payday 2 saves from a different Steam or Epic account to a Steam account.",
+	"description" : "Bypasses the \"Save data belongs to a different user\" error to be able to easily move Payday 2 saves from a different Steam or Epic account to a Steam account.",
 	"author" : "NAHFE",
 	"version" : "2",
-	"simple_update_url" : "https://pd2mods.nahfe.xyz/update/SteamSaveDifferentUserFixer.zip"
+	"updates": [
+		{
+			"identifier": "SteamSaveDifferentUserFixer",
+			"host": {
+				"meta": "https://pd2mods.nahfe.dev/SteamSaveDifferentUserFixer.json"
+			}
+		}
+	],
 	"hooks" : [
 		{
 			"hook_id" : "lib/managers/savefilemanager"
